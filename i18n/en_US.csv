@@ -1,0 +1,24 @@
+"API key value is missing!","API key value is missing!"
+"Please add and save API key first!","Please add and save API key first!"
+"Please Select...","Please Select..."
+"Magento is configured to use the built-in Full Page Cache. To use Webscale varnish caching please change ""Caching Application"" to ""Varnish Cache"" under the ""Full Page Cache"" tab in <a href=""%1"">System Configuration</a>","Magento is configured to use the built-in Full Page Cache. To use Webscale varnish caching please change ""Caching Application"" to ""Varnish Cache"" under the ""Full Page Cache"" tab in <a href=""%1"">System Configuration</a>"
+"Please configure API Token.","Please configure API Token."
+"To be able to use Webscale varnish caching please configure ""Account"", ""Application"" and ""Environment"" below.","To be able to use Webscale varnish caching please configure ""Account"", ""Application"" and ""Environment"" below."
+"Varnish cache flushed successfully.","Varnish cache flushed successfully."
+"There is error occurred while trying to purge varnish cache. Please refer to logs for more information.","There is error occurred while trying to purge varnish cache. Please refer to logs for more information."
+"Syncing accounts/applications...","Syncing accounts/applications..."
+"Successfully synced account and applications.","Successfully synced account and applications."
+"Something went wrong while saving accounts. Please refer to logs for more information.","Something went wrong while saving accounts. Please refer to logs for more information."
+"Flush Varnish Cache","Flush Varnish Cache"
+"Webscale varnish cache.","Webscale varnish cache."
+Webscale,Webscale
+Varnish,Varnish
+"General Configuration","General Configuration"
+Enabled,Enabled
+"API Token","API Token"
+Application,Application
+Account,Account
+Environment,Environment
+"Sync Accounts","Sync Accounts"
+Developer,Developer
+"Enable Debug","Enable Debug"

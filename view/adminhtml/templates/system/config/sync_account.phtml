@@ -1,0 +1,25 @@
+<?php
+/**
+ * Copyright © Webscale. All rights reserved.
+ * See LICENSE for license details.
+ */
+
+/**
+ * @var Webscale\Varnish\Block\System\Config\Form\Button\SyncAccount $block
+ * @var \Magento\Framework\Escaper $escaper
+ */
+?>
+<button class="scalable" type="button" id="<?= /* @noEscape */ $block->getHtmlId() ?>">
+    <span>
+        <?= /* @noEscape */ $escaper->escapeHtml($block->getButtonLabel()) ?>
+    </span>
+</button>
+
+
+<script type="text/x-magento-init">
+    {
+        "#<?= $block->getHtmlId() ?>": {
+            "syncAccount": <?= /* @noEscape */ $block->getBlockConfigAsJson() ?>
+        }
+    }
+</script>
