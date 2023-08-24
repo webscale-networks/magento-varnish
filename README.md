@@ -5,7 +5,7 @@ Allows to setup and configure Webscale varnish cache implementation.
 To install extension run the following in magento root directory:
 
 ```console
-composer config repositories.webscale-networks git https://github.com/webscale-networks/magento-varnish.git
+composer config repositories.webscale-networks vcs https://github.com/webscale-networks/magento-varnish.git
 composer require webscale-networks/magento-varnish
 ```
 
