@@ -36,7 +36,9 @@ Save the configuration. Next, click on `Sync Accounts` button under `Application
 
 Once accounts synced select `Account`, `Application` and `Environment` in the corresponding fields and save configuration.
 
-After setting up Account and Application navigate to `Stores > Configuration > Advanced > System`, open `Full Page Cache` section and select `Varnish` in `Caching Application` field:
+![Webacale Varnish Configuration](Documentation/sync-accounts-selected.png "Synced Accounts")
+
+After setting up Account and Application navigate to `Stores > Configuration > Advanced > System`, open `Full Page Cache` section and select `Varnish Cache` in `Caching Application` field:
 
 ![Webacale Varnish Configuration](Documentation/caching-application.png "Caching Application")
 

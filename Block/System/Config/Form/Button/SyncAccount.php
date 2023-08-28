@@ -34,7 +34,7 @@ class SyncAccount extends Field
      *
      * @return $this
      */
-    protected function _prepareLayout(): static
+    protected function _prepareLayout()
     {
         parent::_prepareLayout();
         $this->setTemplate('Webscale_Varnish::system/config/sync_account.phtml');
