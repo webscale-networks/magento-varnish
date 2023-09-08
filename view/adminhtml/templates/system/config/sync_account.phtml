@@ -6,12 +6,11 @@
 
 /**
  * @var Webscale\Varnish\Block\System\Config\Form\Button\SyncAccount $block
- * @var \Magento\Framework\Escaper $escaper
  */
 ?>
 <button class="scalable" type="button" id="<?= /* @noEscape */ $block->getHtmlId() ?>">
     <span>
-        <?= /* @noEscape */ $escaper->escapeHtml($block->getButtonLabel()) ?>
+        <?= /* @noEscape */ $block->getButtonLabel() ?>
     </span>
 </button>
 
